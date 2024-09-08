@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Poppins", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.backimg {
+  background-image: url(/squirell-removebg-preview.png);
+  background-position: center;
+  background-size: cover;
+}
+.backtree {
+  background-image: url(/tree-removebg-preview.png);
+  background-position: center;
+  background-size: contain;
+}
